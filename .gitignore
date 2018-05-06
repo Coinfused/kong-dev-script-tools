@@ -1,0 +1,4 @@
+config/kong.conf
+logs/
+lib/kong/plugins/google-apps-script/plugin-dev
+notes.txt

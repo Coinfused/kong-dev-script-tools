@@ -1,0 +1,19 @@
+{
+  "name": "Kong",
+  "description": "Heroku Kong dev installation, for script.tools development",
+  "keywords": [
+    "api",
+    "google",
+    "script",
+    "kong"
+  ],
+  "website": "https://script.tools/",
+  "repository": "https://github.com/coinfused/heroku-kong-dev.git",
+  "success_url": "https://github.com/coinfused/heroku-kong-dev/blob/master/README.md#user-content-usage",
+  "buildpacks": [{
+    "url": "https://github.com/coinfused/heroku-buildpack-kong.git"
+  }],
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
